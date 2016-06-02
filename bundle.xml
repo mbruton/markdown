@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adapt_framework>
+    <bundle>
+        <name>markdown</name>
+        <label>Adapt Markdown</label>
+        <label>Markdown parser and syntax highlighter</label>
+        <version>1.0.0</version>
+        <type>extension</type>
+        <namespace>\adapt\markdown</namespace>
+        <description>Provides markdown functionality and syntax highlighting</description>
+        <copyright>2015 Adapt Framework</copyright>
+        <depends_on>
+            <bundle>
+                <name>parsedown_extra</name>
+                <version>0.7</version>
+            </bundle>
+            <bundle>
+                <name>pygments_wrapper</name>
+                <version>1.0</version>
+            </bundle>
+            <bundle>
+                <name>adapt</name>
+                <version>2.0</version>
+            </bundle>
+        </depends_on>
+    </bundle>
+</adapt_framework>
